@@ -1,0 +1,66 @@
+.top_navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1099;
+    nav{
+        height: 55px;
+        ul{
+            li{
+                &.account{
+                    position: relative;
+                    display: inline-block;
+                    .profile{
+                        display: none;
+                        position: absolute;
+                        right: 0;
+                        top: 35px;
+                        z-index: 100;
+                        ul{
+                            display: grid;
+                            min-width: max-content;
+                            background: var(--bg_dropdown);
+                            margin-top: 10px;
+                            li{
+                                list-style: none;
+                                a{
+                                    color:  var(--gray);
+                                    padding: 5px 15px;
+                                    text-decoration: none;
+                                    width: 100%;
+                                    display: inline-block;
+                                }
+                                &:hover{
+                                    background: var(--bread_bg);
+                                }
+                            }
+                        }
+                        
+                        &.show {display: block;}
+                    }
+                    &:hover {
+                        .profile{
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// .side-navber.toggle_side_bar~.content-body .top_navbar {
+//     width: calc(100% - 60px);
+//     left: 60px;
+//     transition: .5s ease-out;
+//     @include xs (){
+//         width: calc(100% - 250px);
+//         left: 250px;
+//     }
+//     @include sm (){
+//         width: calc(100% - 250px);
+//         left: 250px;
+//     }
+//     @include md (){
+//         width: calc(100% - 250px);
+//         left: 250px;
+//     }
+// }

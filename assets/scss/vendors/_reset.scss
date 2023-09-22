@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    font-family: var(--poppin);
+}
+body, html{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+// #menu_css_toggle {
+//     display: none;
+// }
+// #menu_css_toggle:checked ~ .side-navber {
+//     width: 60px;
+// }
+
+// // #menu_css_toggle:checked ~ .side-navber .side-header span {
+// //     display: none;
+// // }
+
+// #menu_css_toggle:checked ~ .content-body {
+//     // margin-left: 60px;
+//     width: calc(100% - 60px);
+// }
+
+// #menu_css_toggle:checked ~ .content-body {
+//     left: 60px;
+// }
+
+// #menu_css_toggle:checked ~ .side-navber .top-sidebar span.d_name,
+// #menu_css_toggle:checked ~ .side-navber .sidebar-menu .drop_link,
+// #menu_css_toggle:checked ~ .side-navber .sidebar-menu .drop_link .sub_name,
+// #menu_css_toggle:checked ~ .side-navber .sidebar-menu a .link_name {
+//     display: none;
+// }
+
+// // #menu_css_toggle:checked ~ .side-navber .sidebar-menu .drop_link a{
+// //     margin-left: -8px;
+// // }
+
+// // #menu_css_toggle:checked ~ .side-navber .sidebar-menu a span {
+// //     font-size: 1.3rem;
+// // }
+
+
+
+
+// @include mbs (){ 
+    
+    
+//     #menu_css_toggle:checked ~ .side-navber {
+//         right: 250px;
+
+//     }
+    
+//     #menu_css_toggle:checked ~ .side-navber {
+//         width: 250px;
+//     }
+
+//     // #menu_css_toggle:checked ~ .side-navber .side-header span {
+//     //     display: inline-block;
+//     // }
+
+//     #menu_css_toggle:checked ~ .side-navber .top-sidebar span.d_name,
+//     // #menu_css_toggle:checked ~ .side-navber .sidebar-menu .drop_link,
+//     #menu_css_toggle:checked ~ .side-navber .sidebar-menu .drop_link .sub_name,
+//     #menu_css_toggle:checked ~ .side-navber .sidebar-menu a .link_name {
+//         display: block;
+//     }
+
+//     // #menu_css_toggle:checked ~ .side-navber .side-menu a span {
+//     //     font-size: 1.7rem;
+//     // }
+    
+//     #menu_css_toggle:checked ~ .content-body {
+//         left: 250px;
+//         width: calc(100% - 250px);
+//         // transition: .5s ease-in;
+//     }
+    
+    
+// }
+
+

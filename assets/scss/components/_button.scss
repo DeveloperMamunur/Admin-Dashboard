@@ -1,0 +1,169 @@
+.butn{
+    border: none;
+    color: white; 
+    padding: 13px 26px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: .3rem;
+    z-index: 0;
+}
+
+.butn_lg{
+    font-size: 19px;
+    padding: 15px 30px;
+}
+
+.butn_sm{
+    font-size: 14px;
+    padding: 8px 16px;
+}
+
+.butn_md{
+    font-size: 15px;
+    padding: 11px 22px;
+}
+.butn_pill{
+    border-radius: 25px;
+}
+
+// =============== defualt button section ===========
+.butn_success{
+    background: var(--success);
+}
+.butn_success:hover{
+    background: var(--light_success);
+}
+.butn_warning{
+    background: var(--warning);
+}
+.butn_warning:hover{
+    background: var(--light_warning);
+}
+.butn_danger{
+    background: var(--danger);
+}
+.butn_danger:hover{
+    background: var(--light_danger);
+}
+.butn_primary{
+    background: var(--primary);
+}
+.butn_primary:hover{
+    background: var(--light_primary);
+}
+.butn_info{
+    background: var(--info);
+}
+.butn_info:hover{
+    background: var(--light_info);
+}
+.butn_secondary{
+    background: var(--secondary);
+}
+.butn_secondary:hover{
+    background: var(--light_secondary);
+}
+.butn_dark{
+    background: var(--dark);
+}
+.butn_dark:hover{
+    background: var(--light_dark);
+}
+.butn_gray{
+    background: var(--btn_gray);
+}
+.butn_gray:hover{
+    background: var(--light_btn_gray);
+}
+.butn_light{
+    background: var(--btn_light);
+    color: #000;
+}
+.butn_light:hover{
+    background: var(--btn_dark_light);
+}
+
+
+
+// ========button outline section ===============
+.butn_o_success{
+    color: var(--success);
+    border: 1px solid var(--success);
+}
+.butn_o_success:hover{
+    background: var(--success);
+    color: #eee;
+}
+.butn_o_warning{
+    color: var(--warning);
+    border: 1px solid var(--warning);
+}
+.butn_o_warning:hover{
+    background: var(--warning);
+    color: #eee;
+}
+.butn_o_danger{
+    color: var(--danger);
+    border: 1px solid var(--danger);
+}
+.butn_o_danger:hover{
+    background: var(--danger);
+    color: #eee;
+}
+.butn_o_primary{
+    color: var(--primary);
+    border: 1px solid var(--primary);
+}
+.butn_o_primary:hover{
+    background: var(--primary);
+    color: #eee;
+}
+.butn_o_info{
+    color: var(--info);
+    border: 1px solid var(--info);
+}
+.butn_o_info:hover{
+    background: var(--info);
+    color: #eee;
+}
+.butn_o_secondary{
+    color: var(--secondary);
+    border: 1px solid var(--secondary);
+}
+.butn_o_secondary:hover{
+    background: var(--secondary);
+    color: #eee;
+}
+.butn_o_dark{
+    color: var(--dark);
+    border: 1px solid var(--dark);
+}
+.butn_o_dark:hover{
+    background: var(--dark);
+    color: #eee;
+}
+.butn_o_gray{
+    color: var(--btn_gray);
+    border: 1px solid var(--btn_gray);
+}
+.butn_o_gray:hover{
+    background: var(--btn_gray);
+    color: #eee;
+}
+.butn_o_light{
+    color: var(--btn_light);
+    border: 1px solid var(--btn_light);
+}
+.butn_o_light:hover{
+    background: var(--btn_light);
+    color: #2d2d2d;
+}
+
+hr{
+    margin: 50px 0;
+}
+
+
+
+
+

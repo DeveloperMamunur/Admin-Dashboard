@@ -1,0 +1,48 @@
+.content{
+    .tbl_header{
+        h3{
+            font-size: 22px;
+            color: var(--card_color);
+        }
+    }
+}
+table{
+    display: table;
+    border-collapse: collapse;
+    
+}
+.table{
+    background-color: transparent;
+    color: var(--text_color);
+    vertical-align: middle;
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 100%;
+}
+
+table, thead, tbody, th, tr, td{
+    border: 1px solid #dee2e6;
+}
+
+thead{
+    vertical-align: bottom;
+}
+
+
+tbody{
+    vertical-align: inherit;
+}
+th, td{
+    padding: .5rem;
+    font-size: .9rem;
+    height: auto;
+}
+.center{
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
+

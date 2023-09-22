@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+:root{
+    --text_color: #212529;
+    --nav_color: #0a3d62;
+    // --nav_color: #10214b;
+    --bg_color: #1b4068;
+    --second_bg_color: #fff;
+    --bg_content_color: #f6f6f9;
+    --bg_dropdown: #3c638a;
+    --bg_hover:#0b4075;
+    --bread_bg:#34506d;
+    --aqua: aqua;
+    --gray: #eee;
+    --dark_grey: #AAAAAA;
+    --border: #1a3574;
+    --card: #ddd;
+    --card_color: #1e2024;
+    --bg_mb: #86b2d6;
+    // button color 
+    --light_dark: #0707079e;
+    --dark: #070707;
+    --light_primary: #4856eb;
+    --primary: #0d6efd;
+	--light_danger: #fb280ce9;
+    --danger: #dc3545;
+    --light_warning: #f9da17e9;
+    --warning: #FBC02D;
+    --light_success: #06d64f;
+    --success: #05b242;
+    --light_info: #03eeff;
+    --info: #0dcaf0;
+    --light_secondary: #86b2d6;
+    --secondary: #507c9f;
+    --light_btn_gray: #7f878d;
+    --btn_gray: #6c757d;
+    --btn_dark_light: #e0e4e8;
+    --btn_light: #f8f9fa;
+
+    --card_shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    --btn_shadow: box-shadow: 0 0 5px #03f40f,
+                    0 0 25px #03f40f,
+                    0 0 50px #03f40f,
+                    0 0 100px #03f40f;
+    --box_shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+                rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+
+    --poppin: font-family: 'Poppins', sans-serif;
+}
+
+body.dark{
+    --text_color: #ddd;
+    --nav_color: #181a1e;
+    --bg_color: #1e2024;
+    --bg_content_color: #25252c;
+    --bg_dropdown: #3a4249;
+    --bg_hover:#000306;
+    --bg_mb: #030303;
+    --aqua:#596c80;
+
+    // --bread_bg:#354657;
+    --second_bg_color: #373232;
+    --bread_bg:#1d2833;
+    --dark_grey: #6c6969;
+    --gray: #f4f1f1;
+    --border: #0b0b0b;
+    --card: #1b242c;
+    --card_color: #eee;
+    // --card_shadow: rgba(0,0,0,0.19) 0px 10px 20px,
+    // rgba(0,0,0,0.23) 0px 6px 6px;
+    --card_shadow: 15px 15px 30px rgb(25, 25, 25),
+    -15px -15px 30px rgb(60, 60, 60);
+    --box_shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+            rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+            rgba(0,0,0,0.2) 0px -3px 0px inset;
+}
